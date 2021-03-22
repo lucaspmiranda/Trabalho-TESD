@@ -10,6 +10,21 @@ body{
     grid-auto-columns: 1fr;
     grid-template-areas: "cabecalho" "principal" "rodape";
 }
+a:link {
+  color: green;
+  text-decoration: none;
+}
+  a:visited {
+  color:#0000;
+  text-decoration: none;
+}
+  a:hover {
+  color: #FF0000;;
+  text-decoration: none;
+}  a:active {
+  color: #000000;
+  text-decoration: none;
+}
 .cabecalho{
     grid-area: cabecalho;
     background-color: #000000;
