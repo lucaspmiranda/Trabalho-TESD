@@ -51,18 +51,4 @@ body{
     justify-content: center;
     align-items: center;
 }
-.opcoes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-}
-.login{
-    display: flex;
-    align-items: center;
-}
-.login > h4{
-    color: #FFFFFF;
-    background-color: #000000;
-    margin: 0px;
-    font-weight: 400;
-}
+
