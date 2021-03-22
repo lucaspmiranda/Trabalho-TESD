@@ -36,9 +36,19 @@ body{
     position: relative;
     height: 100%;
     padding: 10px;
+}     
+#container-imagem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background:url('img\background-jpg.png');
+    background-size: cover;
 }
 .principal{
     grid-area: principal;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 1rem;
     height: calc(100vh - 180px);
     background-color: #f0f0f0;
 }
@@ -51,4 +61,3 @@ body{
     justify-content: center;
     align-items: center;
 }
-
