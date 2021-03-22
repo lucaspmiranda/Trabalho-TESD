@@ -10,6 +10,22 @@ body{
     grid-auto-columns: 1fr;
     grid-template-areas: "cabecalho" "principal" "rodape";
 }
+a:link {
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    color:red;
+    text-decoration: none;
+}
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
 #container-imagem {
     position: relative;
     height: 100vh;
