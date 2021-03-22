@@ -10,13 +10,6 @@ body{
     grid-auto-columns: 1fr;
     grid-template-areas: "cabecalho" "principal" "rodape";
 }
-#container-imagem {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background:url('img\background-jpg.png');
-    background-size: cover;
-}
 .cabecalho{
     grid-area: cabecalho;
     background-color: #000000;
@@ -46,7 +39,7 @@ body{
 }  
 .principal{
     grid-area: principal;
-    margin: 0px;
+    margin: 10px;
     font-weight: 400;
     font-size: 1rem;
     height: calc(100vh - 180px);
@@ -60,4 +53,5 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: static;
 }
