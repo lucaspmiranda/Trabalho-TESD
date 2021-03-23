@@ -82,5 +82,5 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: static;
+    position: fixed;
 }
