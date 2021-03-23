@@ -5,6 +5,8 @@
 body{
     height: 100vh;
     margin: 0px;
+    margin: 0px;
+    padding: 0px;
     display: grid;
     grid-template-rows: 120px 1fr 60px;
     grid-auto-columns: 1fr;
@@ -53,6 +55,12 @@ a:active {
     height: 100%;
     padding: 10px;
 }  
+.container img {
+    max-width:350px;
+    max-height:225px;
+    width: auto;
+    height: auto;
+}
 .principal{
     grid-area: principal;
     margin: 10px;
