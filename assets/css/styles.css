@@ -59,7 +59,7 @@ a:active {
     font-weight: 400;
     font-size: 1rem;
     height: calc(100vh - 180px);
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
 }
 .rodape{
     grid-area: rodape;
