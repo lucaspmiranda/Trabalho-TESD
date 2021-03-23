@@ -82,5 +82,8 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    width: 100%;
+    bottom: 0px;
     position: fixed;
 }
